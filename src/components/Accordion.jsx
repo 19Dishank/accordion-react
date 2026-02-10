@@ -13,9 +13,9 @@ const Accordion = () => {
         )
     }
     return (
-        <div className='grid grid-cols-1 place-items-center py-5'>
+        <div className='grid grid-cols-1 place-items-center py-5 w-full px-4'>
             <header className='capitalize underline font-bold text-xl text-slate-100'>The Accordion</header>
-            <div className='gap-2 flex flex-col mt-5 py-5'>
+            <div className='gap-2 flex flex-col mt-5 py-5 px-6 w-full max-w-2xl'>
                 {data.map((curElem) =>
                     <FAQcard
                         key={curElem.id}
